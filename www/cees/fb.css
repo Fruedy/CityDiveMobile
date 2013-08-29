@@ -1,0 +1,21 @@
+#likebox-frame {
+border:none;
+height:140px;
+left:-2px;
+overflow:hidden;
+position:relative;
+top:-2px;
+width:250px;
+z-index:10;
+}
+#likebox-frame iframe {
+left:-5px;
+overflow:hidden;
+position:relative;
+top:-1px;
+}
+.uiBoxDarkgray {
+background: transparent ;
+border: 0px solid #333333;
+color: #333333;
+}

@@ -1,0 +1,28 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+.devi {
+  padding-top: 70px;
+  width: 340px;
+  float: left;
+  margin-left: 5px;
+  position: relative;
+}
+#devi-overlay {
+  position: absolute;
+  top: 94px;
+  left: 515px;
+  background-size: 200px 300px;
+}
+#devi-overlay img {
+  position: absolute;
+  height: 273px !important;
+  width: 483px !important;
+  z-index: 8;
+}
+#devi-overlay img.active {
+  z-index: 10;
+}
+#devi-overlay img.last-active {
+  z-index: 9;
+}

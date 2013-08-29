@@ -1,0 +1,49 @@
+body {
+	background: url(../omg/bg.png) repeat; 
+	margin: 0 0 0 0;
+}
+p {
+	margin:2px 0; 
+	font-family: Tahoma;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%; 
+	height: auto !important; 
+	height: 100%; 
+	margin: 0 auto -100px;
+}
+.footer, .push { 
+	height: 100px;
+}
+.container { 
+	position: relative; 
+	width: 960px; 
+	margin: 0 auto; 
+	padding: 0;
+}
+.fb {
+	positioine:absolute;
+}
+#apDiv1 { 
+	position:relative; 
+	width:1172px; 
+	height:570px; 
+	padding: 0;
+}
+.footer { 
+	background: url(../omg/bottom.png) repeat-x;
+}
+#apDiv3 {
+	position:relative; 
+	width:200px; 
+	height:60px; 
+	z-index:3; 
+	left: 0px; 
+	top: 30px;
+}
+.fb-like {
+	z-index:150;
+}
